@@ -1,18 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
+    <script src="assigment.js"></script>
+
+
+    <h1>Birthday Calculator</h1>
+
+    <p>Enter your birthdate:</p>
+    <input type="date" id="birthdate">
+    <button onclick="calculateAge()">Calculate Age</button>
+
+    <p id="result"></p>
+
     
-    <h1 align ="center"> html </h1>
-    <body background ="c:\Users\Online Laptop\Downloads\pexels-hamza-ali-14394832.jpg" link="#000" alink="#017bf5" vlink="#000"></body>
-    <font face ="cinzel" SIZE="4">
-        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-        <h1><a href="cv1.html">cv</a> &nbsp; &nbsp; &nbsp; &nbsp;</h1>
-        <h1> <a href="balochistan.html">website</a> &nbsp; &nbsp; &nbsp; &nbsp;</h1>
-        <h1> <a href="form.html">forms</a> &nbsp; &nbsp; &nbsp; &nbsp;</h1>
-        <h1> <a href="time table.html">time table</a> &nbsp; &nbsp; &nbsp; &nbsp;</h1>
-            </font>
+
+
+    <h1>Day of the Week Calculator</h1>
+    
+    <label for="dateInput">Enter a Date: </label>
+    <input type="date" id="dateInput">
+    <button onclick="calculateDayOfWeek()">Calculate</button>
+
+    <p id="result"></p>
+
+
+
+
+    <h1>Days Until a Future Date Calculator</h1>
+    
+    <label for="futureDateInput">Enter a Future Date: </label>
+    <input type="date" id="futureDateInput">
+    <button onclick="calculateDaysUntil()">Calculate</button>
+
+    <p id="result"></p>
+
+
+
+    <h1>Weekend Checker</h1>
+    
+    <label for="dateInput">Enter a Date: </label>
+    <input type="date" id="dateInput">
+    <button onclick="checkWeekend()">Check</button>
+
+    <p id="result"></p>
+
+    
+
+    <h1>Countdown Timer</h1>
+    
+    <label for="futureDateInput">Enter a Future Date and Time: </label>
+    <input type="datetime-local" id="futureDateInput">
+    <button onclick="startCountdown()">Start Countdown</button>
+
+    <div id="countdown">
+        <div>
+            <span id="days">0</span> days
+        </div>
+        <div>
+            <span id="hours">0</span> hours
+        </div>
+        <div>
+            <span id="minutes">0</span> minutes
+        </div>
+        <div>
+            <span id="seconds">0</span> seconds
+        </div>
+    </div>
+
+
+
+    <h1>Season Checker</h1>
+    
+    <label for="dateInput">Enter a Date: </label>
+    <input type="date" id="dateInput">
+    <button onclick="checkSeason()">Check Season</button>
+
+    <p id="result"></p>
+
+
+
+
+
+    <h1>Age Calculator</h1>
+    
+    <label for="birthdateInput">Enter Your Birthdate: </label>
+    <input type="date" id="birthdateInput"><br>
+
+    <label for="futureDateInput">Enter a Future Date: </label>
+    <input type="date" id="futureDateInput"><br>
+
+    <button onclick="calculateAge()">Calculate Age</button>
+
+    <p id="result"></p>
+
+
+
+    <h1>Days Between Dates Calculator</h1>
+    
+    <label for="startDateInput">Enter Start Date: </label>
+    <input type="date" id="startDateInput"><br>
+
+    <label for="endDateInput">Enter End Date: </label>
+    <input type="date" id="endDateInput"><br>
+
+    <button onclick="calculateDaysBetween()">Calculate Days</button>
+
+    <p id="result"></p>
+    
 </body>
+
 </html>
