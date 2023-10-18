@@ -1,0 +1,53 @@
+.container {
+    background-color: blue;
+}
+
+.box {
+    background-color: green;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    animation-name: wasif2;
+    animation-duration: 8s;
+    animation-iteration-count: 2;
+    animation-name: wasif1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes wasif2{
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        top: 250px;
+        left: 0px;
+    }
+
+    75% {
+        top: 250px;
+        left: 250px;
+    }
+
+    100% {
+        top: 0px;
+        left: 250px; ;
+
+    }
+}
+
+@keyframes wasif1 {
+
+    from {
+        width: 200px;
+    }
+
+    to {
+        width: 1400px;
+    }
+}

@@ -1,0 +1,52 @@
+body{
+
+    padding: 0px;
+    margin: 0px;
+}
+.namebar{
+    height: 80px;
+         background-color: black;
+         display: flex;
+         flex-direction: row;
+         
+}
+.logo{
+    flex-grow: 4;
+    background-color:black ;
+}
+
+li{
+
+    display: inline-block;
+    color: white;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+ul :hover{
+
+    color: red
+}
+
+.slider{
+    height: 400px;
+    width: 500px;
+    background-image: url('../pexels-vlada-karpovich-4050325.jpg');
+    background-size: ;
+    background-repeat: no-repeat;
+    padding-left: 400px;
+    padding-top: 90px;
+    
+    
+    
+}
+.slider content{
+    padding: 100px;
+    margin: 100px;
+    
+}
+.button{
+    background-color: transparent;
+}
